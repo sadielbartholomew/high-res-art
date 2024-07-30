@@ -2,6 +2,90 @@
 
 Created by Sadie L. Bartholomew, July 2024.
 
+Artistic description for Design 1, Connections In Rotation (generated via
+'MutationOfFormsLikePatchDesign' class):
+
+    A pair of concentric arrays of uniform partial wedges, differentiated
+    by color, where the starting and ending angles defining the arc swept
+    out by the wedges for each array are linearly spaced from the angles
+    set at the start and end of the rows, forming a regularly spaced
+    sequence for each row, where the start and end columns are also set
+    to be regularly spaced producing linear spacing across the columns as
+    well. These angles are symmetric for the pair of arrays. This design
+    was inspired by the works of Argentinian artist Julio Le Parc, who
+    pioneered such rotational spacing for an array of forms without the
+    use of computers, in particular his 1959 piece 'Mutation of Forms'.
+    In science we often work with vector-like arrays so this design
+    encourages us to think of the beauty and structures that can underlie
+    these. This particular design was chosen because the angles swept
+    appear to form connecting chains in the center of the design and to
+    touch close to the edges, but move away to seem wholly disconnected
+    in the corners. The pair of arc arrays seem interlocking though loosely
+    coupled yet due to the coincident centers and symmetrical angular
+    pattern, also connected.
+
+Technical description for Design 1, Connections In Rotation:
+
+    The image is generated wholly from code written in Python (version
+    3.11.5) using the visualization library 'matplotlib' (version 3.8.3)
+    to programmatically and procedurally define the design. This
+    underlying code has, along with the generated output design, been
+    open-sourced under the 'CC BY 4.0' license and is available to
+    view from a public GitHub repository 'high-res-art' under the artist's
+    personal space, namely
+    'https://github.com/sadielbartholomew/high-res-art/blob/main/
+    inspired_by_le_parc_hi_res.py'. High-performance computing was
+    indispensable towards refining the parameters encoding the precise
+    design, in particular the radius, width and transparency of the
+    individual patch forming the element under repeated rotation; the
+    number of patches per side; and the rotational start and end points
+    forming the pair of rotational arrays. The Slurm workload manager was
+    used on the UK's JASMIN supercomputer to batch process such
+    configurations of the parameters starting from exploratory values,
+    followed by inspection of the generated outcomes and honing in on
+    parameter sets producing promising outcomes in several iterations until
+    finally this design emerged as a visual favorite.
+
+Artistic description for Design 2, Undulations In Rotation (generated via
+'RotationsLikePatchDesign' class):
+
+    An array of identical elements formed of a pair of overlaid
+    semicircular sectors in two colors, rotated uniformly in a regular
+    pattern, where the rotational angle for the elements is linearly
+    spaced from the angles set at the start and end of the rows, forming
+    a regularly spaced sequence for each row, where the start and end
+    columns are also set to be regularly spaced producing linear spacing
+    across the columns as well. This design was inspired by the works of
+    Argentinian artist Julio Le Parc, who pioneered such rotational
+    spacing for an array of forms without the use of computers, in
+    particular his 1959 piece 'Rotations'. In this piece, the rotational
+    start and end points have been carefully chosen to produce an
+    undulation effect when viewed at distance. The diameter of the
+    outer sector has been made larger than the spacing between array
+    grid points in order to crop the shapes further from neighboring
+    elements to emphasize the space left between the elements which
+    forms its own pattern.
+
+Technical description for Design 2, Undulations In Rotation:
+
+    The image is generated wholly from code written in Python (version
+    3.11.5) using the visualization library 'matplotlib' (version 3.8.3)
+    to programmatically and procedurally define the design. This underlying
+    code has, along with the generated output design, been open-sourced
+    under the 'CC BY 4.0' license and is available to view from a public
+    GitHub repository 'high-res-art' under the artist's personal space,
+    namely 'https://github.com/sadielbartholomew/high-res-art/blob/
+    main/inspired_by_le_parc_hi_res.py'. High-performance computing was
+    indispensable towards refining the parameters encoding the precise
+    design, in particular the radii of the two aligned wedges forming
+    the element under repeated rotation; the number of patches per side;
+    and the rotational array. The Slurm workload manager was used on the
+    UK's JASMIN supercomputer to batch process such configurations of
+    the parameters starting from exploratory values, followed by inspection
+    of the generated outcomes and honing in on parameter sets producing
+    promising outcomes in several iterations until finally this design
+    emerged as a visual favorite.
+
 Based upon code and earlier designs made by the same author in 2020-2021,
 but using original patch designs, rotation arrays and colour schemes, plotted
 at ultra HD resolution (3840 x 2160 pixels and 72 dpi).
